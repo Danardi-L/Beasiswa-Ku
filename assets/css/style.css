@@ -1,0 +1,92 @@
+footer {
+  background-color: #13171f;
+  color: #fff;
+  height: 280px;
+  padding: 10px 0;
+  margin-top: 20px;
+}
+
+footer a {
+  color: #ffc107;
+}
+
+footer a:hover {
+  color: #fff;
+}
+
+nav[class^="navbar navbar-expand-lg"] {
+  height: 70px;
+  padding: 20px 0;
+  background-color: #343a40;
+  color: rgb(119, 11, 11);
+}
+
+nav[class^="navbar navbar-expand-lg"] a {
+  color: #f7f7f7;
+}
+
+nav[class^="navbar navbar-expand-lg"] a:hover {
+  color: #fff;
+}
+
+.navbar-nav .nav-link {
+  color: white;
+  transition: color 0.3s ease, transform 0.3s ease; /* Animasi warna dan ukuran dengan durasi 0.3s */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #00a2ff; /* Ubah warna teks menjadi hijau saat di-hover */
+  transform: scale(1.1); /* Sedikit membesarkan ukuran teks */
+}
+
+.navbar-nav .nav-link:active {
+  color: #ff0000; /* Ubah warna menjadi merah saat di-klik */
+  transform: scale(0.9); /* Mengecilkan ukuran saat diklik */
+}
+
+.carousel-item {
+  min-height: 400px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.other-feature-item {
+  padding: 50px 40px;
+  background: #f2f3f7;
+  margin-bottom: 30px;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+@media (max-width: 1024px) {
+  .other-feature-item {
+    padding: 50px 30px;
+  }
+}
+.other-feature-item i {
+  font-size: 36px;
+  color: #222222;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.other-feature-item h4 {
+  margin-top: 30px;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.other-feature-item p {
+  margin-bottom: 0px;
+}
+.other-feature-item:hover {
+  background: #fff;
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.08);
+}
+.other-feature-item:hover i {
+  color: #2532f0;
+}
